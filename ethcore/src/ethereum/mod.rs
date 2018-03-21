@@ -111,6 +111,11 @@ pub fn new_sokol<'a, T: Into<SpecParams<'a>>>(params: T) -> Spec {
 	load(params.into(), include_bytes!("../../res/ethereum/poasokol.json"))
 }
 
+/// Create a new EtherSocial chain spec.
+pub fn new_ethersocial<'a, T: Into<SpecParams<'a>>>(params: T) -> Spec {
+	load(params.into(), include_bytes!("../../res/ethereum/ethersocial.json"))
+}
+
 // For tests
 
 /// Create a new Foundation Frontier-era chain spec as though it never changes to Homestead.
