@@ -11,10 +11,10 @@
         "blockReward": "0x7ce66c50e2840000",
         "homesteadTransition": "0x1",
         "eip150Transition": "0x1",
-        "eip160Transition": "9000000",
+        "eip160Transition": "845000",
 
-        "eip161abcTransition": "9000000",
-        "eip161dTransition": "9000000",
+        "eip161abcTransition": "845000",
+        "eip161dTransition": "845000",
 
         "eip100bTransition": 600000,
         "eip649Transition": 600000,
@@ -27,7 +27,7 @@
     "maximumExtraDataSize": "0x20",
     "minGasLimit": "0x1388",
     "networkID": "0x1",
-    "chainID": "0x0",
+    "chainID": "0x797e",
     "registrar": "0x0000000000000000000000000000000000000000",
     "eip86Transition": "0x7fffffffffffffff",
     "eip98Transition": "0x7fffffffffffffff",
@@ -39,7 +39,7 @@
     "eip211Transition": "600000",
     "eip214Transition": "600000",
     "eip658Transition": "600000",
-    "eip155Transition": "9000000"
+    "eip155Transition": "845000"
   },
   "genesis": {
     "seal": {
